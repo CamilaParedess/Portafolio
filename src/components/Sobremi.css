@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.container_tittle{
+    background-color: rgb(251, 239, 239);
+    color: black;
+    padding-top: 10%;
+    padding-left: 10%;
+    display: flex;
+    flex-direction: column;
+    font-size: 0.8rem;
+    
+}
+
+.container_description{
+    background-color: rgb(251, 239, 239);
+    color: black;
+    padding: 5% 10% 10% 10%;
+    font-size: 1.3rem;
+}
+
+

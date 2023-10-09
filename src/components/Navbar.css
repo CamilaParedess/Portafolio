@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.Nav_bar{
+   
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: rgb(246, 245, 244);
+    position: absolute;
+    padding: 2rem;
+    top: 0;
+    left: 0;
+    align-items: start;
+    gap: 1rem;
+    z-index: 1;
+    position: fixed;
+    
+}
+
+.container_nav_item ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
+    
+    
+
+}
+
+.container_nav_item ul li {
+    text-decoration: none;
+    color: #1c1c1c;
+    padding-right: 25px;
+    
+}
