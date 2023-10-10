@@ -8,10 +8,10 @@ function Navbar() {
 
         <div className='container_nav_item'>
             <ul className='Nav_ul'>
-                <li>Inicio</li>
-                <li>Sobre mí</li>
-                <li>Proyectos</li>
-                <li>Contacto</li>
+                <li> <a className='underline' href="#">Inicio</a></li>
+                <li><a className='underline' href="#sobremi">Sobre mí</a> </li>
+                <li><a className='underline' href="#proyectos">Proyectos</a> </li>
+                <li> <a className='underline' href="#contacto">Contacto</a></li>
             </ul>
         </div>
     </nav>

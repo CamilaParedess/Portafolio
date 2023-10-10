@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.card_proyects{
+    background-color: #232323;
+    border-radius: 20px;
+    margin: 10%;
+    transition: .4s ease-in;
+    
+}
+
+.card_proyects:hover{
+    transform: scale(1.03);  
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+  }
+
+.tittle_proyects{
+    font-size: 1rem;
+    padding: 10% 10% 0% 10%;
+    color: #f1f1f1;
+
+}
+
+.container_sportstrade{
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.img_sporstrade{
+    width: 100%;
+
+}
+
+.tittle_sporstrade{
+    font-size: 1rem;
+    padding: 3% 10% 2% 10%;
+    display: flex;
+    justify-content: center;
+    color: #f1f1f1;
+}
+
+.text_sportstrade{
+    font-size: 1.5rem;
+    display: flex;
+    text-align: center;
+    color: #f1f1f1;
+    
+}
+
+.buttom_codigo{
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+}
+
+.link_codigo{
+    background-color: #4b32b0;
+    text-decoration: none;
+    color: #f1f1f1;
+    font-size: 100%;
+    border-radius: 20px;
+    width: 150px;
+    padding: 10px;
+    text-align: center;
+}
+
+
+@media (min-width: 801px){
+  .card_proyects{
+    margin: 10% 25%;
+
+  }
+
+    .text_sportstrade{
+        font-size: 1.5rem;
+        display: flex;
+        text-align: center;
+    
+    }
+
+    
+    
+}
+
+@media (min-width: 1200px){
+    .card_proyects{
+      margin: 8% 30%;
+  
+    }
+  
+      .text_sportstrade{
+          font-size: 1.5rem;
+          display: flex;
+          text-align: center;
+      
+      }
+  
+      
+      
+  }

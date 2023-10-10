@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+.container_contact{
+    font-size: 1rem;
+    padding: 10% 10% 0% 10%;
+    color: #f1f1f1;
+}
+
+.container_cards{
+    display: flex;
+    margin: 40px;
+    text-align: center;
+
+}
+
+.container_item img:hover{
+    transform: scale(1.10);  
+    cursor: pointer;
+
+}
+
+
+
+.container_item img{
+    width: 40%;
+    transition: .4s ease-in;
+    
+
+}
+
+@media (min-width: 801px){
+
+    .container_contact{
+        padding: 0 10% 3% 10%;
+    }
+
+    .container_cards{
+        margin: 40px;
+    }
+
+
+    .container_item img{
+        width: 20%;
+    }
+}
+
+@media (min-width: 1200px){
+
+    .container_cards{
+        margin: 50px;
+    }
+
+
+    .container_item img{
+        width: 15%;
+    }
+}

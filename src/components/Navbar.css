@@ -10,13 +10,12 @@
     width: 100%;
     font-size: 1rem;
     font-weight: 600;
-    background-color: rgb(246, 245, 244);
+    background-color: #232323;
     position: absolute;
-    padding: 2rem;
+    padding: 1.5rem;
     top: 0;
     left: 0;
-    align-items: start;
-    gap: 1rem;
+    gap: 1.5rem;
     z-index: 1;
     position: fixed;
     
@@ -25,15 +24,41 @@
 .container_nav_item ul{
     display: flex;
     list-style-type: none;
-    justify-content: flex-end;
-    
+    justify-content: end;
     
 
 }
 
 .container_nav_item ul li {
     text-decoration: none;
-    color: #1c1c1c;
-    padding-right: 25px;
+    color: #f1f1f1;
+    padding-right: 10px;
+    
+}
+
+.container_nav_item ul li a{
+    text-decoration: none;
+    color: #f1f1f1;
+}
+
+.container_nav_item ul li a:hover{
+    text-decoration: underline;
+    text-decoration-color: rgb(180, 9, 207);
+    text-decoration-style: solid;
+    text-underline-offset: 8px;
+    transition: text-decoration 1s ease-in-out;
+}
+
+@media (min-width: 1200px){
+
+    .Nav_bar{
+        font-size: 1.5rem;
+        
+    }
+
+    .container_nav_item ul li {
+        padding-right: 20px;
+        
+    }
     
 }
